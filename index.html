@@ -4,76 +4,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Langing Page Odin Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="hero">
-            <div id="logo-menu">
-                <h1 id="logo">Header Logo</h1>
-                <nav id="menu">
-                    <a href="/html/">Header link one</a> |
-                    <a href="/css/">Header link two</a> |
-                    <a href="/js/">Header link three</a> |
-                </nav>
-            </div>
-            <div id="hero-left-col">
-                <h1 id="hero-main-text">This website is asome</h1>
-                <h3 id="hero-secondary-text">This website has some subtext that goes here under the
-                    main title. It's a smaller font and the color is lower
-                    contrast
-                </h3>
-                <a id="hero-button" href="#">Sign up</a>
-            </div>
-            <div id="hero-right-col">
-                <img src="" alt="hero-image">
-            </div>
-        </div>
-    </header>
-    <main>
-        <section id="first-section" class="content-section">
-            <div class="container">
-                <h1>Some random information.</h1>
-                <div class="skill-container">
-                    <div id="skill-one" class="skill">
-                        <img src="" alt="skill one">
-                        <p>this is some subtext under an illustration</p>
+    <div id="body-container">
+        <header>
+            <div id="hero">
+                <div id="logo-menu">
+                    <h1 id="logo">Header Logo</h1>
+                    <nav id="menu">
+                        <a href="/html/">Header link one</a>
+                        <a href="/css/">Header link two</a>
+                        <a href="/js/">Header link three</a>
+                    </nav>
+                </div>
+                <div id="hero-text-image">
+                    <div id="hero-left-col">
+                        <h1 id="hero-main-text">This website is asome</h1>
+                        <p id="hero-secondary-text">This website has some subtext that goes here under the
+                            main title. It's a smaller font and the color is lower
+                            contrast
+                        </p>
+                        <a id="hero-button" href="#">Sign up</a>
                     </div>
-                    <div id="skill-two" class="skill">
-                        <img src="" alt="skill two">
-                        <p>this is some subtext under an illustration</p>
-                    </div>
-                    <div id="skill-three" class="skill">
-                        <img src="" alt="skill three">
-                        <p>this is some subtext under an illustration</p>
+                    <div id="hero-right-col">
+                        <img src="https://placehold.co/600x400" alt="hero-image">
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section id="second-section" class="content-section">
-            <div class="container">
-                <p id="quote"></p>
-                <p id="author"></p>
-            </div>
-        </section>
-
-        <section id="third-section" class="content-section">
-            <div class="container">
-                <div id="cta-container">
-                    <div id="cta-left">
-                        <h1>Call to action! It's time!</h1>
-                        <p>Sign up for our product by clicking that button right over there!</p>
+        </header>
+        <main>
+            <div id="main">
+                <section id="first-section" class="content-section">
+                    <div class="container">
+                        <h1>Some random information.</h1>
+                        <div class="skill-container">
+                            <div id="skill-one" class="skill">
+                                <img src="https://placehold.co/200x200" alt="skill one">
+                                <p>this is some subtext under an illustration</p>
+                            </div>
+                            <div id="skill-two" class="skill">
+                                <img src="https://placehold.co/200x200" alt="skill two">
+                                <p>this is some subtext under an illustration</p>
+                            </div>
+                            <div id="skill-three" class="skill">
+                                <img src="https://placehold.co/200x200" alt="skill three">
+                                <p>this is some subtext under an illustration</p>
+                            </div>
+                            <div id="skill-four" class="skill">
+                                <img src="https://placehold.co/200x200" alt="skill three">
+                                <p>this is some subtext under an illustration</p>
+                            </div>
+                        </div>
                     </div>
-                    <div id="cta-right">
-                        <a id="cta-button" href="#">Sign up</a>
+                </section>
+            
+                <section id="second-section" class="content-section">
+                    <div class="container">
+                        <p id="quote">Se piove o tira vento alle palle stai attento</p>
+                        <p id="author">Gianni Vieri</p>
                     </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Copyright © The Odin Project 2021</p>
-    </footer>
+                </section>
 
+                <section id="third-section" class="content-section">
+                    <div class="container">
+                        <div id="cta-container">
+                            <div id="cta-left">
+                                <h1>Call to action! It's time!</h1>
+                                <p>Sign up for our product by clicking that button right over there!</p>
+                            </div>
+                            <div id="cta-right">
+                                <a id="cta-button" href="#">Sign up</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div id="footer">
+                <p>Copyright © The Odin Project 2021</p>
+            </div>
+        </footer>
+    </div>
 </html>

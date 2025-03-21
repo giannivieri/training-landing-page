@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header, footer{
+    background-color: #1F2937;
+    color: #fff;
+    width: 100%;
+}
+main{
+    background-color: #fff;
+    color: #1F2937;
+    width: 100%;
+}
+
+header a, footer a{
+    color: #fff;
+}
+
+#logo-menu{
+    padding-bottom: 32px;
+}
+
+nav{
+    text-align: right;
+}
+#menu a:not(:last-child){
+    padding-right: 10px;
+}
+
+#menu a{
+    color: #E5E7EB;
+}
+#hero, #footer, #main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+
+.content-section{
+    padding: 32px 0px;
+}
+
+#first-section .container h1{
+    text-align: center;
+    font-size: 36px;
+   color: #1F2937;  
+   font-weight: 900;
+}
+
+#second-section{
+    background-color:#E5E7EB;
+}
+
+#logo{
+    font-size: 22px;
+    font-weight: 900;
+}
+#logo-menu, #hero-text-image{
+    display: flex;
+    align-items: center;
+}
+
+#logo, #menu, #hero-left-col, #hero-right-col{
+    flex: 1;
+    justify-content: space-between;
+}
+
+#hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero-secondary-text,#hero-button {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#hero-secondary-text{
+    margin-bottom: 18px;
+}
+
+#hero-button{
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+#hero-right-col{
+    text-align: center;
+}
+
+#hero-right-col img{
+    width: 80%;
+    height: auto;
+}
+
+
+.skill-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 32px;
+    padding: 32px;
+}
+
+.skill{
+    flex-basis: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.skill img{
+    border: solid 4px #3882F6;
+    border-radius: 8px;
+}
