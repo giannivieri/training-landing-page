@@ -40,13 +40,18 @@ nav{
 #menu a{
     color: #E5E7EB;
 }
-#hero, #footer, #main{
+#hero, #footer{
     width: 90%;
     margin: 0 auto;
     padding: 32px 0px;
 }
+.container-background-gray{
+    background-color: #E5E7EB;
+}
 
 .content-section{
+    width: 90%;
+    margin: 0 auto;
     padding: 32px 0px;
 }
 
@@ -121,4 +126,44 @@ nav{
 .skill img{
     border: solid 4px #3882F6;
     border-radius: 8px;
+}
+
+#second-section > div,#third-section > div{
+    padding: 64px;
+
+}
+
+#quote{
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+    font-style: italic;
+}
+#author{
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#cta-container{
+    background-color: #3882F6;
+    padding: 32px 64px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+#cta-button{
+font-size: 18px;
+color: #E5E7EB ;
+background-color: #3882F6;
+padding: 8px 32px;
+border-radius: 8px;
+border: solid 2px #E5E7EB;
+}  
+
+#footer{
+    text-align: center;
 }
